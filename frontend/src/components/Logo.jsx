@@ -1,8 +1,9 @@
 import { Link } from "react-scroll"
 
-const Logo = () => {
+const Logo = ({ onClick = null }) => {
   return (
     <Link
+      onClick={onClick}
       to="home"
       smooth={true}
       duration={500}
