@@ -6,7 +6,7 @@ const SectionLink = ({ label, section, onClick = null }) => {
       to={ section }
       smooth={true}
       duration={500}
-      offset={-50} 
+      offset={-75} 
       onClick={onClick}
       className="text-lg font-orbitron uppercase cursor-pointer hover:text-cyan-500 transition-all duration-300"
     >

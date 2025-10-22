@@ -10,7 +10,7 @@ const Logo = ({ onClick = null }) => {
       offset={-50} 
       className="text-3xl z-10 text-white font-orbitron font-bold uppercase cursor-pointer hover:text-cyan-500 transition-all duration-300"
     >
-      AN
+      {"<AN />"}
     </Link>
   )
 }
