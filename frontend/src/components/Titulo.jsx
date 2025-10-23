@@ -1,4 +1,3 @@
-import React from 'react'
 import Divisor from './Divisor'
 
 const Titulo = ({ texto }) => {
@@ -9,7 +8,7 @@ const Titulo = ({ texto }) => {
       >
         { texto }
       </h2>
-      <Divisor />
+      <Divisor/>
     </div>
   )
 }
