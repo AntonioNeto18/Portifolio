@@ -1,7 +1,24 @@
 import Divisor from "./Divisor"
 import Icone from "./Icone"
+import { FaHtml5, FaCss3, FaJs, FaReact } from "react-icons/fa"
+import { RiTailwindCssFill } from "react-icons/ri"
 
 const ProjetoCard = ({ titulo, descricao, deploy, git, tecnologias }) => {
+
+  const tagsTecnologias = (tecnologia) => {
+    switch (tecnologia) {
+      case "FaHtml5":
+        return <FaHtml5 />
+      case "FaCss3":
+        return <FaCss3 />
+      case "FaJs":
+        return <FaJs />
+      case "FaReact":
+        return <FaReact />
+      case "RiTailwindCssFill":
+        return <RiTailwindCssFill />
+    }
+  }
   return (
     <article
       onClick={""}
@@ -23,7 +40,7 @@ const ProjetoCard = ({ titulo, descricao, deploy, git, tecnologias }) => {
         </h4>
         <div className="flex gap-2 text-4xl justify-center items-center">
           {tecnologias.map((tecnologia) => (
-            <Icone icone={tecnologia}/>
+            <Icone icone={tagsTecnologias(tecnologia)}/>
           ))}
         </div>
       </div>

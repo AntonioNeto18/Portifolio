@@ -1,0 +1,16 @@
+[
+    {
+        "titulo": "Landing page fotografo",
+        "descricao": "Projeto de uma landing page simples, com design moderno e responsivo, feito com HTML, CSS e JavaScript, com o objetivo de divulgar o trabalho do fotografo Diego Almeida.",
+        "deploy": "https://landing-page-fotografo.vercel.app/",
+        "git": "https://github.com/AntonioNeto18/Landing-page-fotografo",
+        "tecnologias": ["FaHtml5", "FaCss3", "FaJs"]
+    },
+    {
+        "titulo": "Calculadora",
+        "descricao": "Projeto acadêmico, desenvolvido usando React e Tailwind, para praticar a lógica de programação, componentização e estilização por classes.",
+        "deploy": "https://cp4-front-web.vercel.app/",
+        "git": "https://github.com/Grupo-FIAP-Antonio-Felipe-e-Joao-Vitor/cp4-front-web/tree/main",
+        "tecnologias": ["FaReact", "RiTailwindCssFill", "FaJs"]
+    }
+]
