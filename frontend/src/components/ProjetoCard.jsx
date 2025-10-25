@@ -21,8 +21,8 @@ const ProjetoCard = ({ titulo, descricao, deploy, git, tecnologias }) => {
   }
   return (
     <article
-      onClick={""}
-      className='flex flex-col justify-between items-center hover:scale-105 transition-all duration-300 shadow-xl shadow-slate-700 gap-2 w-auto bg-gray-900 rounded-2xl'
+      onClick={() => window.open(deploy, "_blank")}
+      className='flex flex-col cursor-pointer justify-between items-center hover:scale-105 transition-all duration-300 shadow-xl shadow-slate-700 gap-2 w-auto bg-gray-900 rounded-2xl'
     >
       <div className="relative w-full h-[250px] overflow-hidden rounded-t-2xl shadow-lg group">
         <iframe

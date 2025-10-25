@@ -8,9 +8,16 @@
     },
     {
         "titulo": "Calculadora",
-        "descricao": "Projeto acadêmico, desenvolvido usando React e Tailwind, para praticar a lógica de programação, componentização e estilização por classes.",
+        "descricao": "Projeto acadêmico desenvolvido com React, Tailwind CSS e JavaScript, focado na criação de uma interface moderna e responsiva para realizar operações matemáticas básicas. O projeto explora conceitos de componentização, manipulação de estado e design intuitivo.",
         "deploy": "https://cp4-front-web.vercel.app/",
         "git": "https://github.com/Grupo-FIAP-Antonio-Felipe-e-Joao-Vitor/cp4-front-web/tree/main",
+        "tecnologias": ["FaReact", "RiTailwindCssFill", "FaJs"]
+    },
+    {
+        "titulo": "Jogo da velha",
+        "descricao": "Projeto acadêmico criado com React, Tailwind CSS e JavaScript, implementando a lógica completa do clássico jogo da velha. Inclui controle de turnos, detecção automática de vencedor e reinício de partida.",
+        "deploy": "https://jogo-da-velha-liard-ten.vercel.app/",
+        "git": "https://github.com/Meu-Pessoal/Jogo_da_velha.git",
         "tecnologias": ["FaReact", "RiTailwindCssFill", "FaJs"]
     }
 ]
