@@ -2,23 +2,10 @@ import Divisor from "./Divisor"
 import Icone from "./Icone"
 import { FaHtml5, FaCss3, FaJs, FaReact } from "react-icons/fa"
 import { RiTailwindCssFill } from "react-icons/ri"
+import TagTecnologia from "./TagTecnologia"
 
 const ProjetoCard = ({ titulo, descricao, deploy, git, tecnologias }) => {
 
-  const tagsTecnologias = (tecnologia) => {
-    switch (tecnologia) {
-      case "FaHtml5":
-        return <FaHtml5 />
-      case "FaCss3":
-        return <FaCss3 />
-      case "FaJs":
-        return <FaJs />
-      case "FaReact":
-        return <FaReact />
-      case "RiTailwindCssFill":
-        return <RiTailwindCssFill />
-    }
-  }
   return (
     <article
       onClick={() => window.open(deploy, "_blank")}
@@ -32,15 +19,15 @@ const ProjetoCard = ({ titulo, descricao, deploy, git, tecnologias }) => {
         ></iframe>
       </div>
 
-      <div className="flex justify-between w-full items-center px-6">
+      <div className="flex flex-col justify-between w-full items-center px-6">
         <h4
-          className='text-white text-left text-lg md:text-2xl uppercase font-bold'
+          className='text-white text-left text-lg md:text-2xl uppercase font-bold mb-2'
         >
           {titulo}
         </h4>
-        <div className="flex gap-2 text-4xl justify-center items-center">
+        <div className="flex flex-wrap gap-4 text-4xl justify-center items-center">
           {tecnologias.map((tecnologia) => (
-            <Icone icone={tagsTecnologias(tecnologia)}/>
+            <TagTecnologia tecnologia={tecnologia} />
           ))}
         </div>
       </div>
