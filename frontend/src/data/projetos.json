@@ -19,5 +19,12 @@
         "deploy": "https://jogo-da-velha-liard-ten.vercel.app/",
         "git": "https://github.com/Meu-Pessoal/Jogo_da_velha.git",
         "tecnologias": ["React", "Tailwind Css", "Js"]
+    },
+    {
+        "titulo": "Gerador de senha",
+        "descricao": "Esta é uma aplicação web desenvolvida para criar senhas aleatórias e seguras, auxiliando na segurança digital dos usuários.",
+        "deploy": "https://gerador-de-senhas-mauve-eta.vercel.app/",
+        "git": "https://github.com/AntonioNeto18/Gerador_de_Senhas",
+        "tecnologias": ["React", "Tailwind Css", "Js"]
     }
 ]
