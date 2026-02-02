@@ -3,7 +3,7 @@ const Icone = ({ icone, link = null, label = null }) => {
     <a
       target="_blank"
       href={link}
-      className={`flex flex-col gap-1 text-white w-fit hover:drop-shadow-sm hover:drop-shadow-cyan-500 hover:text-cyan-500 cursor-pointer`}
+      className={`flex flex-col items-center gap-1 text-white w-fit hover:drop-shadow-sm hover:drop-shadow-cyan-500 hover:text-cyan-500 cursor-pointer`}
     >
       {icone}
       <span

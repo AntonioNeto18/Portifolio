@@ -19,11 +19,7 @@ const Projetos = () => {
           {projetos.map((projeto) => (
             <ProjetoCard 
               key={projeto.titulo}
-              titulo={projeto.titulo}
-              descricao={projeto.descricao}
-              deploy={projeto.deploy}
-              git={projeto.git}
-              tecnologias={projeto.tecnologias}
+              {...projeto}
           />
           ))}
 			</section>

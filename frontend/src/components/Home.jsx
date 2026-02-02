@@ -29,7 +29,7 @@ const Home = () => {
         <p
           className="text-white text-lg mt-2"
         >
-          Sou estudante de engenharia de software na FIAP, tenho experiência com <Destaque texto="python, html, css, javascript, react, git, github, node js, tailwind" />.
+          Sou estudante de engenharia de software na FIAP, tenho experiência com <Destaque texto="python, html, css, javascript, react, git, github, node js, tailwind, java, spring boot, docker, docker compose" />.
         </p>
 
         <section className="flex flex-col mt-5 gap-4">
