@@ -4,7 +4,7 @@
         "descricao": "Projeto de uma landing page simples, com design moderno e responsivo, feito com HTML, CSS e JavaScript, com o objetivo de divulgar o trabalho do fotografo Diego Almeida.",
         "deploy": "https://landing-page-fotografo.vercel.app/",
         "git": "https://github.com/AntonioNeto18/Landing-page-fotografo",
-        "image": "src/assets/LandingPageFotografoImage.png",
+        "image": "/images/LandingPageFotografoImage.png",
         "tecnologias": ["Html", "Css", "Js"]
     },
     {
@@ -12,7 +12,7 @@
         "descricao": "Aplicação full stack de lista de tarefas desenvolvida para estudos, utilizando React no frontend e Java com Spring Boot no backend. Permite criar, listar, editar, concluir e excluir tarefas, com toda a aplicação containerizada usando Docker.",
         "deploy": null,
         "git": "https://github.com/AntonioNeto18/todo-list",
-        "image": "src/assets/TodoListImage.png",
+        "image": "/images/TodoListImage.png",
         "tecnologias": ["React", "Tailwind Css", "Js", "Java", "Spring boot", "Postgres", "Docker"]
     },
     {
@@ -20,7 +20,7 @@
         "descricao": "Projeto acadêmico desenvolvido com React, Tailwind CSS e JavaScript, focado na criação de uma interface moderna e responsiva para realizar operações matemáticas básicas. O projeto explora conceitos de componentização, manipulação de estado e design intuitivo.",
         "deploy": "https://cp4-front-web.vercel.app/",
         "git": "https://github.com/Grupo-FIAP-Antonio-Felipe-e-Joao-Vitor/cp4-front-web/tree/main",
-        "image": "src/assets/CalculadoraImage.png",
+        "image": "/images/CalculadoraImage.png",
         "tecnologias": ["React", "Tailwind Css", "Js"]
     },
     {
@@ -28,7 +28,7 @@
         "descricao": "Esta é uma aplicação web desenvolvida para criar senhas aleatórias e seguras, auxiliando na segurança digital dos usuários.",
         "deploy": "https://gerador-de-senhas-mauve-eta.vercel.app/",
         "git": "https://github.com/AntonioNeto18/Gerador_de_Senhas",
-        "image": "src/assets/GeradorDeSenhaImage.png",
+        "image": "/images/GeradorDeSenhaImage.png",
         "tecnologias": ["React", "Tailwind Css", "Js"]
     },
     {
@@ -36,7 +36,7 @@
         "descricao": "Projeto acadêmico criado com React, Tailwind CSS e JavaScript, implementando a lógica completa do clássico jogo da velha. Inclui controle de turnos, detecção automática de vencedor e reinício de partida.",
         "deploy": "https://jogo-da-velha-liard-ten.vercel.app/",
         "git": "https://github.com/Meu-Pessoal/Jogo_da_velha.git",
-        "image": "src/assets/JogoDaVelhaImage.png",
+        "image": "/images/JogoDaVelhaImage.png",
         "tecnologias": ["React", "Tailwind Css", "Js"]
     }
 ]
