@@ -12,7 +12,7 @@ const ProjetoCard = ({ titulo, descricao, deploy, git, tecnologias, image }) => 
         
         <img
           src={image}
-          className="w-full h-full object-fit object-center"
+          className="w-full h-full md:object-fit object-cover object-center"
           scrolling="no"
         />
       </div>
@@ -37,11 +37,12 @@ const ProjetoCard = ({ titulo, descricao, deploy, git, tecnologias, image }) => 
         {descricao}
       </p>
       <section
-        className={`flex ${deploy != null ? "justify-between" : "justify-start"} w-full p-2`}
+        className={`flex ${deploy != null ? "justify-between" : "justify-end"} w-full p-2`}
       >
         {deploy != null && (
           <a
           href={deploy}
+          onClick={(e) => e.stopPropagation()}
           target="_blank"
           className="cursor-pointer hover:bg-white hover:text-black transition-all duration-300 border-2 border-white text-xl text-white px-2 uppercase font-bold rounded-lg"
         >
@@ -50,6 +51,7 @@ const ProjetoCard = ({ titulo, descricao, deploy, git, tecnologias, image }) => 
         )}
         <a
           href={git}
+          onClick={(e) => e.stopPropagation()}
           target="_blank"
           className="cursor-pointer hover:bg-white hover:text-black transition-all duration-300 border-2 border-white text-xl text-white px-2 uppercase font-bold rounded-lg"
         >
