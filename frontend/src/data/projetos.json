@@ -1,11 +1,17 @@
 [
     {
-        "titulo": "Landing page fotografo",
-        "descricao": "Projeto de uma landing page simples, com design moderno e responsivo, feito com HTML, CSS e JavaScript, com o objetivo de divulgar o trabalho do fotografo Diego Almeida.",
-        "deploy": "https://landing-page-fotografo.vercel.app/",
-        "git": "https://github.com/AntonioNeto18/Landing-page-fotografo",
-        "image": "/images/LandingPageFotografoImage.png",
-        "tecnologias": ["Html", "Css", "Js"]
+        "titulo": "Desafio backend itaú",
+        "descricao": "API REST desenvolvida em Java com Spring Boot para registro de transações financeiras e cálculo de estatísticas em tempo real, considerando apenas os últimos 60 segundos, seguindo as regras do desafio técnico do Itaú.",
+        "deploy": null,
+        "git": "https://github.com/AntonioNeto18/Desafio-itau-java",
+        "image": "/images/DesafioItauImage.png",
+        "tecnologias": [
+            "Java",
+            "Spring boot",
+            "Maven",
+            "Swagger",
+            "Docker"
+        ]
     },
     {
         "titulo": "Lista de tarefas",
@@ -13,7 +19,28 @@
         "deploy": null,
         "git": "https://github.com/AntonioNeto18/todo-list",
         "image": "/images/TodoListImage.png",
-        "tecnologias": ["React", "Tailwind Css", "Js", "Java", "Spring boot", "Postgres", "Docker"]
+        "tecnologias": [
+            "React",
+            "Tailwind Css",
+            "Js",
+            "Java",
+            "Spring boot",
+            "Maven",
+            "Postgres",
+            "Docker"
+        ]
+    },
+    {
+        "titulo": "Landing page fotografo",
+        "descricao": "Projeto de uma landing page simples, com design moderno e responsivo, feito com HTML, CSS e JavaScript, com o objetivo de divulgar o trabalho do fotografo Diego Almeida.",
+        "deploy": "https://landing-page-fotografo.vercel.app/",
+        "git": "https://github.com/AntonioNeto18/Landing-page-fotografo",
+        "image": "/images/LandingPageFotografoImage.png",
+        "tecnologias": [
+            "Html",
+            "Css",
+            "Js"
+        ]
     },
     {
         "titulo": "Calculadora",
@@ -21,7 +48,11 @@
         "deploy": "https://cp4-front-web.vercel.app/",
         "git": "https://github.com/Grupo-FIAP-Antonio-Felipe-e-Joao-Vitor/cp4-front-web/tree/main",
         "image": "/images/CalculadoraImage.png",
-        "tecnologias": ["React", "Tailwind Css", "Js"]
+        "tecnologias": [
+            "React",
+            "Tailwind Css",
+            "Js"
+        ]
     },
     {
         "titulo": "Gerador de senha",
@@ -29,7 +60,11 @@
         "deploy": "https://gerador-de-senhas-mauve-eta.vercel.app/",
         "git": "https://github.com/AntonioNeto18/Gerador_de_Senhas",
         "image": "/images/GeradorDeSenhaImage.png",
-        "tecnologias": ["React", "Tailwind Css", "Js"]
+        "tecnologias": [
+            "React",
+            "Tailwind Css",
+            "Js"
+        ]
     },
     {
         "titulo": "Jogo da velha",
@@ -37,6 +72,10 @@
         "deploy": "https://jogo-da-velha-liard-ten.vercel.app/",
         "git": "https://github.com/Meu-Pessoal/Jogo_da_velha.git",
         "image": "/images/JogoDaVelhaImage.png",
-        "tecnologias": ["React", "Tailwind Css", "Js"]
+        "tecnologias": [
+            "React",
+            "Tailwind Css",
+            "Js"
+        ]
     }
 ]
