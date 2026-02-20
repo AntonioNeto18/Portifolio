@@ -1,15 +1,18 @@
 [
     {
-        "titulo": "Desafio backend itaú",
-        "descricao": "API REST desenvolvida em Java com Spring Boot para registro de transações financeiras e cálculo de estatísticas em tempo real, considerando apenas os últimos 60 segundos, seguindo as regras do desafio técnico do Itaú.",
+        "titulo": "Gerenciamento de Produtos",
+        "descricao": "Aplicação full stack de gerenciamento de produtos desenvolvida para estudos, utilizando React no frontend e Java com Spring Boot no backend. A API REST permite criar, listar produtos ativos, buscar por ID, atualizar e realizar remoção lógica (soft delete), com validações de regras de negócio e execução via Docker.",
         "deploy": null,
-        "git": "https://github.com/AntonioNeto18/Desafio-itau-java",
-        "image": "/images/DesafioItauImage.png",
+        "git": "https://github.com/AntonioNeto18/gerenciamento-de-produtos-java",
+        "image": "/images/GerenciamentoProdutosImage.png",
         "tecnologias": [
+            "React",
+            "Js",
+            "Tailwind Css",
             "Java",
-            "Spring boot",
+            "Spring Boot",
+            "H2 Database",
             "Maven",
-            "Swagger",
             "Docker"
         ]
     },
@@ -27,6 +30,20 @@
             "Spring boot",
             "Maven",
             "Postgres",
+            "Docker"
+        ]
+    },
+    {
+        "titulo": "Desafio backend itaú",
+        "descricao": "API REST desenvolvida em Java com Spring Boot para registro de transações financeiras e cálculo de estatísticas em tempo real, considerando apenas os últimos 60 segundos, seguindo as regras do desafio técnico do Itaú.",
+        "deploy": null,
+        "git": "https://github.com/AntonioNeto18/Desafio-itau-java",
+        "image": "/images/DesafioItauImage.png",
+        "tecnologias": [
+            "Java",
+            "Spring boot",
+            "Maven",
+            "Swagger",
             "Docker"
         ]
     },
